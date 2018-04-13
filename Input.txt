@@ -1,0 +1,41 @@
+Schemas
+CSG, Course, StudentId, Grade
+StudentId
+SNAP, StudentId, Name, Address, Phone
+StudentId
+CP, Course, Prerequisite
+Course
+CDH, Course, Day, Hour
+Course
+CR, Course, Room
+Course
+End
+
+Insert
+CSG, CS101, 12345, A, 
+CSG, CS101, 67890, B, 
+CSG, EE200, 12345, C, 
+CSG, EE200, 22222, B+, 
+CSG, CS101, 33333, A−, 
+CSG, PH100, 67890, C+, 
+SNAP, 12345, C._Brown_12, Apple_St., 555-1234, 
+SNAP, 67890, L._Van_Pelt, 34-Pear_Ave., 555-5678, 
+SNAP, 22222, P._Patty, 56_Grape_Blvd., 555-9999, 
+CP, CS101, CS100, 
+CP, EE200, EE005, 
+CP, EE200, CS100, 
+CP, CS120, CS101, 
+CP, CS121, CS120, 
+CP, CS205, CS101, 
+CP, CS206, CS121, 
+CP, CS206, CS205, 
+CDH, CS101, M, 9AM, 
+CDH, CS101, W, 9AM, 
+CDH, CS101, F, 9AM, 
+CDH, EE200, Tu, 10AM, 
+CDH, EE200, W, 1PM, 
+CDH, EE200, Th, 10AM, 
+CR, CS101, Turing_Aud., 
+CR, EE200, 25_Ohm_Hall, 
+CR, PH100, Newton_Lab., 
+End
